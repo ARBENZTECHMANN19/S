@@ -1,1 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Luxe Hair Studio</title>
+    <style>
+        /* Basic reset and styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        header {
+            background-color: #f8c7d7;
+            padding: 1em 2em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 2rem;
+            color: #a64d79;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 1em;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .hero {
+            background-image: url('https://example.com/hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            padding: 2em;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 0.5em;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 500px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.8em 2em;
+            background-color: #a64d79;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .section {
+            padding: 3em 2em;
+            text-align: center;
+        }
+        .section h3 {
+            font-size: 2rem;
+            margin-bottom: 1em;
+            color: #a64d79;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2em 1em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Luxe Hair Studio</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h2>Welcome to Luxe Hair Studio</h2>
+            <p>Where beauty meets precision. Step into our salon and experience luxury hair care tailored just for you.</p>
+            <a href="#contact" class="button">Book an Appointment</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <h3>About Us</h3>
+        <p>At Luxe Hair Studio, our expert stylists are passionate about providing personalized hair services that leave you feeling fabulous. From cutting-edge cuts to radiant color, we bring your vision to life.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <h3>Our Services</h3>
+        <p>We offer a variety of services including cuts, color treatments, styling, and more. Our stylists are trained in the latest techniques to ensure you get the best results every time.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <h3>Contact Us</h3>
+        <p>Ready to book your appointment? Contact us today to schedule your visit!</p>
+        <p>Email: info@luxehair.com | Phone: (123) 456-7890</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2023 Luxe Hair Studio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
 
